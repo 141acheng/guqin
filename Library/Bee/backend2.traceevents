@@ -1,0 +1,314 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717765757137992, "dur":8174, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765757146249, "dur":373, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765757146648, "dur":3629, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765757150278, "dur":6620902, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765763771186, "dur":149, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765763771335, "dur":109, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765763771592, "dur":1778, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717765757146737, "dur":3546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717765757150286, "dur":2952, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717765757156437, "dur":845, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1717765757157286, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757157509, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1717765757157713, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717765757157980, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757158206, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757158494, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757158758, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757159165, "dur":447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757159613, "dur":514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757160128, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DemiLib\\Core\\DemiLib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757160372, "dur":330, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DOTween\\DOTween43.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757160703, "dur":642, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DOTween\\DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757161347, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DOTween\\DOTween46.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757161608, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DOTweenPro\\DOTweenPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757161794, "dur":997, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757162793, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\lenovo\\Desktop\\acheng\\\\GuqinGame-main\\Assets\\Demigiant\\DOTween\\DOTween50.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757162993, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757163242, "dur":454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757163697, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757164114, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757164432, "dur":1887, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757166321, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757166657, "dur":2277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757168936, "dur":550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757169488, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757169679, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757169880, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757170047, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757170195, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757170362, "dur":679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757171061, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player6a5d0406-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1717765757171446, "dur":628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757172086, "dur":863, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757172952, "dur":903, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757173856, "dur":682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757174539, "dur":1057, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757175597, "dur":683, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717765757176280, "dur":528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757176809, "dur":760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757177570, "dur":577, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757178147, "dur":733, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757178881, "dur":755, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757179637, "dur":694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757180332, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757180911, "dur":509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757181422, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757181736, "dur":322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757182060, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717765757182301, "dur":1872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757184174, "dur":605, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757184780, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757185076, "dur":548, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757185624, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757185938, "dur":693, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717765757186632, "dur":859, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757187492, "dur":490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757187983, "dur":1378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757189361, "dur":492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757189854, "dur":529, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757190384, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757190822, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757191135, "dur":557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757191693, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757191998, "dur":400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757192399, "dur":552, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765757157285, "dur":35667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757193237, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717765757194570, "dur":109742, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757308083, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757308082, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757308302, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717765757309971, "dur":3595032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765760905033, "dur":774256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765761679332, "dur":197073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765761876542, "dur":187096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765762063673, "dur":295320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765762359031, "dur":154179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765762513252, "dur":198183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765762711474, "dur":347329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717765763058819, "dur":712359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717765757146766, "dur":3521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717765757150290, "dur":236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717765757150527, "dur":2730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717765757153305, "dur":103, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717765757158304, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1717765757163135, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717765757165619, "dur":3434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765757165618, "dur":3436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765757169072, "dur":2613901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765759783015, "dur":1655607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765761438647, "dur":424516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DemiLib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765761863311, "dur":147587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765762010942, "dur":143908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765762154910, "dur":315768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765762470719, "dur":195126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765762665894, "dur":151867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717765762817796, "dur":953326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765757146797, "dur":3498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717765757150297, "dur":344, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717765757150642, "dur":2602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717765757153266, "dur":2754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717765757153250, "dur":2772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717765757156068, "dur":721113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1717765757877250, "dur":3060265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765760937552, "dur":772580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765761710174, "dur":166142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765761876465, "dur":176939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765762053442, "dur":269448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765762322933, "dur":180239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765762503216, "dur":197922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765762701173, "dur":331559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717765763032762, "dur":6521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717765763039515, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1717765763041395, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717765763044959, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717765763047212, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1717765763049092, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1717765763051096, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717765763052684, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1717765763054513, "dur":716660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717765757146821, "dur":3482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717765757150306, "dur":872, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717765757151178, "dur":2082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717765757153261, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717765757158115, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717765757162313, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717765757166060, "dur":319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765757166058, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765757166859, "dur":3007241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765760174130, "dur":1388195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765761562359, "dur":300807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765761863309, "dur":135749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765761999092, "dur":141493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765762140620, "dur":309737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765762450396, "dur":192611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765762643068, "dur":152535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765762795664, "dur":947001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717765763742689, "dur":28509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717765757146847, "dur":3465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717765757150316, "dur":1242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717765757151559, "dur":1700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717765757153280, "dur":1131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717765757153263, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717765757158145, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717765757161070, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1717765757164854, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1717765757168335, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765757168334, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765757168702, "dur":2275242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765759443978, "dur":1705068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765761149080, "dur":692228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765761841434, "dur":130334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765761971809, "dur":149636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765762121477, "dur":317943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765762439457, "dur":171256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765762610766, "dur":160898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765762771703, "dur":940542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717765763712266, "dur":58931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717765757146881, "dur":3439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717765757150323, "dur":242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717765757150565, "dur":2678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717765757153255, "dur":613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717765757158223, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1717765757160366, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1717765757160892, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1717765757164002, "dur":11267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765757164000, "dur":11270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765757175548, "dur":2124836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765759300442, "dur":1763393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765761063869, "dur":748279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DOTweenPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765761812363, "dur":129732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765761942144, "dur":153022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765762095214, "dur":318372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765762413621, "dur":162492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765762576153, "dur":195559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765762771747, "dur":927971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717765763699737, "dur":71455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717765757146906, "dur":3421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717765757150330, "dur":259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717765757150590, "dur":2666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717765757153276, "dur":665, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1717765757153259, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1717765757158412, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1717765757161914, "dur":2037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765757161912, "dur":2040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765757164393, "dur":1474828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765758639253, "dur":2401143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765761040432, "dur":761066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765761801649, "dur":130459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765761932149, "dur":151646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765762083833, "dur":303001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765762386874, "dur":162385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765762549301, "dur":203297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765762752631, "dur":913820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717765763666475, "dur":104701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717765757146931, "dur":3404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717765757150338, "dur":827, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717765757151165, "dur":2087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717765757153253, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1717765757157402, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1717765757161460, "dur":716, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1717765757161458, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1717765757162359, "dur":3478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1717765757165860, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765757165858, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765757166754, "dur":2195723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765759362508, "dur":1718181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765761080733, "dur":740539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DOTween46.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765761821399, "dur":134606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765761956042, "dur":149612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765762105685, "dur":320502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765762426229, "dur":184348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765762610630, "dur":174221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765762784899, "dur":948065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717765763732985, "dur":38205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717765757146952, "dur":3392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717765757150347, "dur":1650, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717765757151997, "dur":1270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717765757153284, "dur":788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717765757153268, "dur":806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717765757158696, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717765757161995, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717765757165357, "dur":2666, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765757165355, "dur":2669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765757168258, "dur":2945303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765760113598, "dur":1324989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765761438621, "dur":411516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DOTween43.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765761850289, "dur":131789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765761982111, "dur":158703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765762140846, "dur":318900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765762459796, "dur":196044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765762655876, "dur":152480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765762808388, "dur":945168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717765763753582, "dur":17603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717765757146988, "dur":3365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717765757150354, "dur":2894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717765757157350, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1717765757161829, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1717765757164110, "dur":985, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1717765757164109, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice.exe" }}
+,{ "pid":12345, "tid":10, "ts":1717765757165110, "dur":1107754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice.exe" }}
+,{ "pid":12345, "tid":10, "ts":1717765758272998, "dur":2706803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765760979837, "dur":821667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/DOTween50.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765761801646, "dur":110772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765761912461, "dur":171341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765762083834, "dur":285526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765762369392, "dur":170238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765762539702, "dur":202653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765762742390, "dur":316406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717765763058813, "dur":712362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717765757147017, "dur":3347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717765757150364, "dur":2883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717765757153275, "dur":728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1717765757153257, "dur":747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1717765757158739, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1717765757161282, "dur":694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1717765757161280, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1717765757162362, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1717765757166034, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765757166033, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765757166854, "dur":3063541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765760230457, "dur":1409293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765761639819, "dur":230971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765761871007, "dur":153144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762024228, "dur":267117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762291379, "dur":189848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762481265, "dur":205749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762687057, "dur":141602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762828680, "dur":30166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762828679, "dur":30169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765762858871, "dur":807613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717765763666519, "dur":104653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717765757147038, "dur":3336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717765757150374, "dur":2888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717765757158007, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1717765757160742, "dur":682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717765757160740, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717765757161444, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717765757164384, "dur":4771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\unity\\2022.3.26f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765757164383, "dur":4775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765757169176, "dur":3583204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765760752412, "dur":887333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765761639808, "dur":230994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765761871012, "dur":163911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765762034962, "dur":271852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765762306870, "dur":185925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765762492859, "dur":194152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765762687057, "dur":332777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717765763019872, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763023739, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1717765763025310, "dur":6045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763031544, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1717765763034977, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1717765763037173, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1717765763038777, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1717765763040169, "dur":4599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763044961, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1717765763047209, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763049087, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763051051, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Desktop/acheng//Practice_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717765763054712, "dur":716469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717765763775319, "dur":1162, "ph":"X", "name": "ProfilerWriteOutput" }
+,
